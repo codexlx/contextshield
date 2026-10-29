@@ -2,40 +2,37 @@
   <style>
     .bg { fill: #0d1117; stroke: #30363d; stroke-width: 2px; }
     .header { fill: #161b22; }
-    .text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; font-size: 13.5px; fill: #c9d1d9; }
+    .text { font-family: Consolas, monospace; font-size: 13.5px; fill: #c9d1d9; }
     .bold { font-weight: bold; }
     .cyan { fill: #58a6ff; }
     .green { fill: #3fb950; }
     .yellow { fill: #d29922; }
     .red { fill: #ff7b72; }
     .muted { fill: #8b949e; }
-
-    .line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9 {
+    .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9 {
       opacity: 0;
       animation-duration: 12s;
       animation-iteration-count: infinite;
       animation-fill-mode: forwards;
     }
-
-    .line1 { animation-name: show1; }
-    .line2 { animation-name: show2; }
-    .line3 { animation-name: show3; }
-    .line4 { animation-name: show4; }
-    .line5 { animation-name: show5; }
-    .line6 { animation-name: show6; }
-    .line7 { animation-name: show7; }
-    .line8 { animation-name: show8; }
-    .line9 { animation-name: show9; }
-
-    @keyframes show1 { 0%, 4% { opacity: 0; } 5%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show2 { 0%, 14% { opacity: 0; } 15%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show3 { 0%, 24% { opacity: 0; } 25%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show4 { 0%, 34% { opacity: 0; } 35%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show5 { 0%, 44% { opacity: 0; } 45%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show6 { 0%, 54% { opacity: 0; } 55%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show7 { 0%, 66% { opacity: 0; } 67%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show8 { 0%, 76% { opacity: 0; } 77%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
-    @keyframes show9 { 0%, 84% { opacity: 0; } 85%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    .l1 { animation-name: s1; }
+    .l2 { animation-name: s2; }
+    .l3 { animation-name: s3; }
+    .l4 { animation-name: s4; }
+    .l5 { animation-name: s5; }
+    .l6 { animation-name: s6; }
+    .l7 { animation-name: s7; }
+    .l8 { animation-name: s8; }
+    .l9 { animation-name: s9; }
+    @keyframes s1 { 0%, 4% { opacity: 0; } 5%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s2 { 0%, 14% { opacity: 0; } 15%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s3 { 0%, 24% { opacity: 0; } 25%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s4 { 0%, 34% { opacity: 0; } 35%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s5 { 0%, 44% { opacity: 0; } 45%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s6 { 0%, 54% { opacity: 0; } 55%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s7 { 0%, 66% { opacity: 0; } 67%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s8 { 0%, 76% { opacity: 0; } 77%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
+    @keyframes s9 { 0%, 84% { opacity: 0; } 85%, 95% { opacity: 1; } 98%, 100% { opacity: 0; } }
   </style>
 
   <rect class="bg" x="2" y="2" width="856" height="446" rx="12" />
@@ -45,48 +42,48 @@
   <circle cx="24" cy="21" r="6" fill="#ff5f56" />
   <circle cx="44" cy="21" r="6" fill="#ffbd2e" />
   <circle cx="64" cy="21" r="6" fill="#27c93f" />
-  <text x="430" y="26" text-anchor="middle" class="text muted" font-size="12">codexlx@dev: ~/project — contextshield</text>
+  <text x="430" y="26" text-anchor="middle" class="text muted" font-size="12">codexlx@dev: ~/project - contextshield</text>
 
-  <g class="line1">
-    <text x="24" y="72" class="text"><tspan class="green bold">></tspan> <tspan class="cyan bold">~/project</tspan> contextshield . --budget 16000 --format xml -o prompt.xml</text>
+  <g class="l1">
+    <text x="24" y="72" class="text"><tspan class="green bold">$</tspan> <tspan class="cyan bold">~/project</tspan> contextshield . --budget 16000 --format xml -o prompt.xml</text>
   </g>
 
-  <g class="line2">
+  <g class="l2">
     <text x="24" y="104" class="text cyan">==============================================================================</text>
-    <text x="24" y="124" class="text bold"> [SHIELD] CONTEXTSHIELD — AI CONTEXT PACKER & SECURITY AUDIT REPORT</text>
+    <text x="24" y="124" class="text bold">[SHIELD] CONTEXTSHIELD - AI CONTEXT PACKER AND SECURITY AUDIT REPORT</text>
     <text x="24" y="144" class="text cyan">==============================================================================</text>
   </g>
 
-  <g class="line3">
-    <text x="24" y="172" class="text muted" xml:space="preserve">File Path                             | Mode     | Orig Tok | Final Tok |  Saved</text>
+  <g class="l3">
+    <text x="24" y="172" class="text muted">File Path                         | Mode     | Orig Tok | Final Tok | Saved</text>
     <text x="24" y="190" class="text muted">------------------------------------------------------------------------------</text>
   </g>
 
-  <g class="line4">
-    <text x="24" y="210" class="text" xml:space="preserve">src/core/engine.py                    | <tspan class="green bold">FULL    </tspan> |    3,420 |     3,420 |   0.0%</text>
-    <text x="24" y="230" class="text" xml:space="preserve">src/api/routes.py                     | <tspan class="green bold">FULL    </tspan> |    2,180 |     2,180 |   0.0%</text>
+  <g class="l4">
+    <text x="24" y="210" class="text">src/core/engine.py                | <tspan class="green bold">FULL</tspan>     |    3,420 |     3,420 |  0.0%</text>
+    <text x="24" y="230" class="text">src/api/routes.py                 | <tspan class="green bold">FULL</tspan>     |    2,180 |     2,180 |  0.0%</text>
   </g>
 
-  <g class="line5">
-    <text x="24" y="250" class="text" xml:space="preserve">src/services/data_pipeline.py         | <tspan class="yellow bold">SKELETON</tspan> |   14,800 |     2,650 |  <tspan class="green">82.1%</tspan></text>
-    <text x="24" y="270" class="text" xml:space="preserve">tests/test_integration_suite.py       | <tspan class="yellow bold">SKELETON</tspan> |   19,200 |     2,310 |  <tspan class="green">88.0%</tspan></text>
+  <g class="l5">
+    <text x="24" y="250" class="text">src/services/data_pipeline.py     | <tspan class="yellow bold">SKELETON</tspan> |   14,800 |     2,650 | <tspan class="green">82.1%</tspan></text>
+    <text x="24" y="270" class="text">tests/test_integration_suite.py   | <tspan class="yellow bold">SKELETON</tspan> |   19,200 |     2,310 | <tspan class="green">88.0%</tspan></text>
     <text x="24" y="288" class="text muted">------------------------------------------------------------------------------</text>
   </g>
 
-  <g class="line6">
-    <text x="24" y="312" class="text"><tspan class="bold">TOTALS:</tspan> 28 files packed | Tokens: 39,600 -> <tspan class="cyan bold">10,560</tspan> (<tspan class="green bold">-73.3% saved</tspan>)</text>
+  <g class="l6">
+    <text x="24" y="312" class="text"><tspan class="bold">TOTALS:</tspan> 28 files packed | Tokens: 39,600 to <tspan class="cyan bold">10,560</tspan> (<tspan class="green bold">-73.3% saved</tspan>)</text>
   </g>
 
-  <g class="line7">
-    <text x="24" y="346" class="text red bold">[!] Security Scan: 2 THREAT(S) DETECTED & SANITIZED:</text>
-    <text x="24" y="368" class="text">  * [<tspan class="red bold">CRITICAL</tspan>] src/config.py:18 — OpenAI API Key (<tspan class="green">REDACTED</tspan>)</text>
+  <g class="l7">
+    <text x="24" y="346" class="text red bold">[!] Security Scan: 2 THREATS DETECTED AND SANITIZED:</text>
+    <text x="24" y="368" class="text">  * [<tspan class="red bold">CRITICAL</tspan>] src/config.py:18 - OpenAI API Key (<tspan class="green">REDACTED</tspan>)</text>
   </g>
 
-  <g class="line8">
-    <text x="24" y="390" class="text">  * [<tspan class="red bold">CRITICAL</tspan>] tests/fixtures.py:42 — System Prompt Override (<tspan class="green">REDACTED</tspan>)</text>
+  <g class="l8">
+    <text x="24" y="390" class="text">  * [<tspan class="red bold">CRITICAL</tspan>] tests/fixtures.py:42 - System Prompt Override (<tspan class="green">REDACTED</tspan>)</text>
   </g>
 
-  <g class="line9">
+  <g class="l9">
     <text x="24" y="424" class="text">[OK] Saved hardened context pack to: <tspan class="green bold">/home/codexlx/project/prompt.xml</tspan></text>
   </g>
 </svg>
